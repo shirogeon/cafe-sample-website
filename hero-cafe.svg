@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9e3e5"/>
+      <stop offset="1" stop-color="#f2e8d8"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf6eb"/>
+      <stop offset="1" stop-color="#d9c8b0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26231f" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#725a44" stop-opacity=".42"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#3d2a19" flood-opacity=".22"/>
+    </filter>
+    <pattern id="texture" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M0 36 36 0" stroke="#ffffff" stroke-opacity=".13"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="820" fill="url(#sky)"/>
+  <rect width="1280" height="820" fill="url(#texture)"/>
+  <path d="M0 720c210-90 344-50 540-100 248-63 396-70 740 0v200H0Z" fill="#dfd0bb" opacity=".7"/>
+
+  <g filter="url(#shadow)">
+    <path d="M456 184c62-82 155-126 286-132 137-6 261 50 328 137 72 94 58 222-27 294-96 81-237 62-365 55-143-8-293 9-354-100-43-77-22-184 132-254Z" fill="#fdf9ef"/>
+    <path d="M420 377c0-70 57-128 128-128h315c83 0 150 67 150 150v200H420Z" fill="url(#wall)"/>
+    <path d="M583 349h324c45 0 82 37 82 82v168H527V405c0-31 25-56 56-56Z" fill="#281f18" opacity=".14"/>
+    <path d="M616 384h116v216H616Z" fill="url(#glass)"/>
+    <path d="M748 384h116v216H748Z" fill="url(#glass)"/>
+    <path d="M881 384h77v216h-77Z" fill="url(#glass)"/>
+    <path d="M617 493h340" stroke="#f7e9d3" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M734 384v216M866 384v216" stroke="#f7e9d3" stroke-opacity=".42" stroke-width="2"/>
+    <circle cx="805" cy="490" r="48" fill="#c7a66c" opacity=".9"/>
+    <text x="805" y="483" text-anchor="middle" font-family="Georgia" font-size="22" fill="#3b2b20">LIORA</text>
+    <text x="805" y="510" text-anchor="middle" font-family="Arial" font-size="10" letter-spacing="3" fill="#3b2b20">CAFE LOUNGE</text>
+  </g>
+
+  <g opacity=".96">
+    <path d="M528 182c56-48 129-76 218-80 101-5 197 25 267 80l-2 76c-81-33-166-50-256-50-81 0-157 13-229 40Z" fill="#241c18" opacity=".25"/>
+    <path d="M530 178c33-28 69-48 109-60v91c-37 6-74 15-111 29Z" fill="#7eccc8"/>
+    <path d="M639 118c42-13 85-18 130-16v101c-44-2-87 0-130 6Z" fill="#f0a23d"/>
+    <path d="M769 102c46 2 90 12 130 30v92c-43-12-86-19-130-21Z" fill="#8a61b9"/>
+    <path d="M899 132c43 18 81 44 114 76l-2 50c-36-14-73-26-112-34Z" fill="#d9a52d"/>
+  </g>
+
+  <g transform="translate(420 612)" opacity=".88">
+    <rect x="0" y="32" width="188" height="18" rx="9" fill="#3c3027"/>
+    <path d="M18 32v-26h152v26" fill="none" stroke="#3c3027" stroke-width="7"/>
+    <path d="M38 50v58M150 50v58" stroke="#3c3027" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(718 626)" opacity=".88">
+    <rect x="0" y="28" width="168" height="18" rx="9" fill="#3c3027"/>
+    <path d="M18 28v-24h132v24" fill="none" stroke="#3c3027" stroke-width="7"/>
+    <path d="M34 46v54M134 46v54" stroke="#3c3027" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity=".9">
+    <path d="M1055 622c22-62 31-129 11-206 62 41 72 116 28 208Z" fill="#42583a"/>
+    <path d="M1115 629c-1-92 25-153 83-190-4 91-31 153-83 190Z" fill="#536e42"/>
+    <path d="M386 654c-40-89-30-157 38-204 4 83-8 153-38 204Z" fill="#506d41"/>
+    <path d="M342 663c-71-63-89-125-57-187 43 60 63 123 57 187Z" fill="#415b35"/>
+  </g>
+</svg>
