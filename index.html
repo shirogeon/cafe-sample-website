@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liora Café & Lounge | Landing Page Demo</title>
+  <meta name="description" content="Contoh landing page café & lounge untuk portfolio jasa pembuatan website UMKM." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-menu-book" viewBox="0 0 24 24">
+      <path d="M5 4.5h7a3 3 0 0 1 3 3V20H8a3 3 0 0 0-3 3V4.5Z" />
+      <path d="M19 4.5h-7a3 3 0 0 0-3 3V20h7a3 3 0 0 1 3 3V4.5Z" />
+      <path d="M8 8h4M8 11h4M16 8h-4M16 11h-4" />
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24">
+      <path d="M12 21s7-5.15 7-12a7 7 0 1 0-14 0c0 6.85 7 12 7 12Z" />
+      <circle cx="12" cy="9" r="2.35" />
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8" />
+      <path d="M12 7.5v5l3.2 1.9" />
+    </symbol>
+    <symbol id="icon-utensils" viewBox="0 0 24 24">
+      <path d="M6 3v8M3.8 3v4.6a2.2 2.2 0 0 0 4.4 0V3M6 11v10" />
+      <path d="M16.5 3v18" />
+      <path d="M16.5 3c2.1 0 3.7 1.8 3.7 4.2v2.4h-3.7" />
+    </symbol>
+    <symbol id="icon-cup" viewBox="0 0 24 24">
+      <path d="M5 8h11v5.7A4.3 4.3 0 0 1 11.7 18H9.3A4.3 4.3 0 0 1 5 13.7V8Z" />
+      <path d="M16 10h1.6a2.4 2.4 0 0 1 0 4.8H16" />
+      <path d="M7 21h9M8 4.5c0-1.1 1-1.4 1-2.5M12 4.5c0-1.1 1-1.4 1-2.5" />
+    </symbol>
+    <symbol id="icon-sofa" viewBox="0 0 24 24">
+      <path d="M6 12V8.5A3.5 3.5 0 0 1 9.5 5h5A3.5 3.5 0 0 1 18 8.5V12" />
+      <path d="M4.8 12h14.4A2.8 2.8 0 0 1 22 14.8V18H2v-3.2A2.8 2.8 0 0 1 4.8 12Z" />
+      <path d="M5 18v3M19 18v3" />
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <path d="M8.7 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" />
+      <path d="M3 20v-1.2A5.7 5.7 0 0 1 8.7 13h0a5.7 5.7 0 0 1 5.7 5.8V20" />
+      <path d="M16.5 11.2a3 3 0 1 0 0-6" />
+      <path d="M17.2 13.5A5 5 0 0 1 21 18.4V20" />
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+      <path d="M7.2 4.4 9 3.6a2 2 0 0 1 2.5.8l1.1 2a2 2 0 0 1-.4 2.4l-1.1 1.1a12.2 12.2 0 0 0 5 5l1.1-1.1a2 2 0 0 1 2.4-.4l2 1.1a2 2 0 0 1 .8 2.5l-.8 1.8a3.2 3.2 0 0 1-3.4 1.9C10.9 20.5 3.5 13.1 2.3 5.8a3.2 3.2 0 0 1 4.9-1.4Z" />
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="4.3" />
+      <circle cx="12" cy="12" r="3.5" />
+      <circle cx="16.7" cy="7.3" r=".9" />
+    </symbol>
+  </svg>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Liora Café & Lounge">
+      <span class="brand-mark">
+        <svg viewBox="0 0 80 80" aria-hidden="true">
+          <circle cx="40" cy="40" r="35" />
+          <path d="M25 48h30M28 48V32c0-6 5-10 12-10s12 4 12 10v16M31 34h18M34 41h12" />
+          <path d="M25 58h30" />
+        </svg>
+      </span>
+      <span class="brand-text">Liora<span>Café & Lounge</span></span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" data-nav>
+      <a href="#home" class="active">Beranda</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <a class="header-cta" href="https://wa.me/628973225110" target="_blank" rel="noopener">
+      <svg><use href="#icon-phone"></use></svg>
+      Hubungi Kami
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/img/hero-cafe.svg" alt="" />
+      </div>
+      <div class="container hero-inner reveal">
+        <p class="eyebrow">Cafe, Lounge, Dining</p>
+        <h1>Good Food,<br />Good Mood.</h1>
+        <p class="hero-copy">Tempat nyaman untuk menikmati makanan dan minuman berkualitas dalam suasana yang hangat.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">
+            <svg><use href="#icon-menu-book"></use></svg>
+            Lihat Menu
+          </a>
+          <a class="btn btn-ghost" href="#contact">
+            <svg><use href="#icon-pin"></use></svg>
+            Lokasi Kami
+          </a>
+        </div>
+        <div class="open-hours">
+          <svg><use href="#icon-clock"></use></svg>
+          <span>Buka setiap hari 08.00 - 22.00</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-wrap">
+      <div class="container feature-panel reveal">
+        <article class="feature-item">
+          <svg><use href="#icon-utensils"></use></svg>
+          <div>
+            <h3>Makanan Lezat</h3>
+            <p>Menu pilihan dengan cita rasa yang mudah dinikmati.</p>
+          </div>
+        </article>
+        <article class="feature-item">
+          <svg><use href="#icon-cup"></use></svg>
+          <div>
+            <h3>Minuman Berkualitas</h3>
+            <p>Beragam pilihan kopi, teh, dan minuman segar.</p>
+          </div>
+        </article>
+        <article class="feature-item">
+          <svg><use href="#icon-sofa"></use></svg>
+          <div>
+            <h3>Suasana Nyaman</h3>
+            <p>Tempat santai untuk bekerja, ngobrol, atau berkumpul.</p>
+          </div>
+        </article>
+        <article class="feature-item">
+          <svg><use href="#icon-users"></use></svg>
+          <div>
+            <h3>Cocok untuk Semua</h3>
+            <p>Bersantai, bertemu teman, atau quality time bersama keluarga.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Pilihan Menu</span>
+            <h2>Menu Favorit</h2>
+          </div>
+          <a href="#contact" class="link-arrow">Lihat Semua Menu <span>→</span></a>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <img src="assets/img/menu-pasta.svg" alt="Ilustrasi pasta" />
+            <div class="menu-card-body">
+              <h3>Spaghetti Alle Vongole</h3>
+              <p>Spaghetti dengan clam, garlic, dan olive oil.</p>
+              <strong>Rp 75.000</strong>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="assets/img/menu-rose-pasta.svg" alt="Ilustrasi rose pasta" />
+            <div class="menu-card-body">
+              <h3>Seoul Rose Pasta</h3>
+              <p>Pasta dengan saus rose khas Korea dan udang.</p>
+              <strong>Rp 88.000</strong>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="assets/img/menu-burger.svg" alt="Ilustrasi burger" />
+            <div class="menu-card-body">
+              <h3>Big Burger</h3>
+              <p>Beef patty, cheddar cheese, coleslaw, dan fries.</p>
+              <strong>Rp 95.000</strong>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <img src="assets/img/menu-drink.svg" alt="Ilustrasi signature drink" />
+            <div class="menu-card-body">
+              <h3>Liora Signature</h3>
+              <p>Campuran buah segar dan rasa khas pilihan barista.</p>
+              <strong>Rp 45.000</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <span class="section-kicker">Tentang Kami</span>
+          <h2>Tentang Liora</h2>
+          <p>Liora Café & Lounge hadir sebagai tempat untuk menikmati hidangan lezat, minuman pilihan, dan suasana yang nyaman. Baik untuk bekerja, bersantai, atau berkumpul bersama orang terdekat.</p>
+          <div class="contact-list">
+            <p><svg><use href="#icon-pin"></use></svg> Jl. Contoh Raya No. 18, Medan, Sumatera Utara</p>
+            <p><svg><use href="#icon-phone"></use></svg> 0812-3456-7890</p>
+            <p><svg><use href="#icon-instagram"></use></svg> @lioracafe.id</p>
+          </div>
+        </div>
+        <div class="about-gallery reveal" id="gallery">
+          <img class="gallery-main" src="assets/img/about-interior.svg" alt="Ilustrasi interior café" />
+          <div class="gallery-stack">
+            <img src="assets/img/gallery-lounge.svg" alt="Ilustrasi area lounge" />
+            <img src="assets/img/gallery-table.svg" alt="Ilustrasi meja café" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <span class="section-kicker">Siap Dibuka Online</span>
+          <h2>Buat customer lebih mudah menemukan info bisnismu.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="https://wa.me/628973225110" target="_blank" rel="noopener">
+            <svg><use href="#icon-phone"></use></svg>
+            Chat WhatsApp
+          </a>
+          <a class="btn btn-ghost dark" href="#home">Kembali ke Atas</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#home" aria-label="Liora Café & Lounge">
+          <span class="brand-mark">
+            <svg viewBox="0 0 80 80" aria-hidden="true">
+              <circle cx="40" cy="40" r="35" />
+              <path d="M25 48h30M28 48V32c0-6 5-10 12-10s12 4 12 10v16M31 34h18M34 41h12" />
+              <path d="M25 58h30" />
+            </svg>
+          </span>
+          <span class="brand-text">Liora<span>Café & Lounge</span></span>
+        </a>
+        <p>Good food, good mood. Sampai jumpa di Liora!</p>
+      </div>
+      <div>
+        <h3>Navigasi</h3>
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Galeri</a>
+      </div>
+      <div>
+        <h3>Jam Operasional</h3>
+        <p>Buka Setiap Hari<br />08.00 - 22.00</p>
+      </div>
+      <div>
+        <h3>Ikuti Kami</h3>
+        <a class="social-link" href="#" aria-label="Instagram"><svg><use href="#icon-instagram"></use></svg> @lioracafe.id</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Liora Café & Lounge. Demo landing page for portfolio.</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
